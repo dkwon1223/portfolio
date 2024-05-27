@@ -3,7 +3,7 @@
 import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
-import { PinContainer } from "./ui/Pin";
+import { PinContainer, PinPerspective } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
@@ -20,7 +20,7 @@ const RecentProjects = () => {
           >
             <PinContainer
               title={item.link}
-              href="https://twitter.com/mannupaaji"
+              href={item.link}
             >
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                 <div
