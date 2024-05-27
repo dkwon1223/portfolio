@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
+import { FaGithub } from "react-icons/fa";
 
 import Lottie from "react-lottie";
 
@@ -11,6 +12,8 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
+import Link from "next/link";
+
 
 export const BentoGrid = ({
   className,
@@ -124,6 +127,20 @@ export const BentoGridItem = ({
             className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
           >
             {title}
+            {id === 1 && (
+              <Link
+              href="https://github.com/dkwon1223"
+              target="_blank"
+              className="mx-12 my-12"
+              >
+                <MagicButton
+                title="Check my GitHub"
+                icon={<FaGithub />}
+                position="left"
+                otherClasses="!bg-[#161A31]"
+                />
+              </Link>
+            )}
           </div>
           {id === 2 && <GridGlobe />}
           {id === 3 && (
