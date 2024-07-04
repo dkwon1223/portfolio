@@ -48,7 +48,7 @@ export const gridItems = [
   {
     id: 5,
     title:
-      "Currently finishing my accredited Frontend Engineering Certificate from Turing School of Sotware and Design",
+      "Just graduated from Turing School of Software and Design with an Accredited Frontend Software Engineering Certificate",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
