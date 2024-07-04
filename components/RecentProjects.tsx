@@ -9,8 +9,7 @@ const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
-        A Selection of My {" "}
-        <span className="text-purple">Recent Projects</span>
+        A Selection of My <span className="text-purple">Recent Projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map((item) => (
@@ -18,10 +17,7 @@ const RecentProjects = () => {
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
             key={item.id}
           >
-            <PinContainer
-              title={item.link}
-              href={item.link}
-            >
+            <PinContainer title={item.link} href={item.link}>
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
