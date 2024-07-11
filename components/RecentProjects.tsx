@@ -8,10 +8,13 @@ import { PinContainer, PinPerspective } from "./ui/Pin";
 const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
-      <h1 className="heading">
+      <h1 className="heading mb-12">
         A Selection of My <span className="text-purple">Recent Projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
+      <h3 className="subheading">
+        <span className="text-purple">PLEASE NOTE:</span> StackPedia and MixMaster utilize deployed backend servers and databases. These may take a couple minutes to spin up as they are hosted on free tier services.
+      </h3>
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-2">
         {projects.map((item) => (
           <div
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
