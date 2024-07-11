@@ -72,7 +72,7 @@ export const projects = [
   {
     id: 1,
     title: "StackPedia",
-    des: "A fullstack web application for developers to explore technologies and stacks.",
+    des: "A full-stack web application for developers to explore technologies and stacks.",
     img: "/stackpedia.png",
     iconLists: [
       "/re.svg",
