@@ -85,11 +85,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Rotten Tomatillos",
-    des: "Simplify your movie experience with Rotten Tomatillos. Seamlessly explore movie ratings and descriptions.",
-    img: "/tomatillos.png",
-    iconLists: ["/re.svg", "/sass.svg", "/cypress.svg"],
-    link: "https://rancid-tomatillos-omega.vercel.app/",
+    title: "Mizu Izakaya",
+    des: "A Next.js project for a restaurant website featuring a sleek, responsive design",
+    img: "/p4.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://mizu-izakaya.vercel.app/",
   },
   {
     id: 3,
@@ -107,11 +107,11 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Mizu Izakaya",
-    des: "A Next.js project for a restaurant website featuring a sleek, responsive design",
-    img: "/p4.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "https://mizu-izakaya.vercel.app/",
+    title: "Rotten Tomatillos",
+    des: "Simplify your movie experience with Rotten Tomatillos. Seamlessly explore movie ratings and descriptions.",
+    img: "/tomatillos.png",
+    iconLists: ["/re.svg", "/sass.svg", "/cypress.svg"],
+    link: "https://rancid-tomatillos-omega.vercel.app/",
   },
 ];
 
