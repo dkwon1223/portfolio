@@ -12,7 +12,7 @@ const RecentProjects = () => {
         A Selection of My <span className="text-purple">Recent Projects</span>
       </h1>
       <h3 className="subheading">
-        <span className="text-purple">PLEASE NOTE:</span> StackPedia and MixMaster utilize deployed backend servers and databases. These may take a couple minutes to spin up as they are hosted on free tier services.
+        <span className="text-purple">PLEASE NOTE:</span> Some projects may use a free tier for hosted backend services and could take a couple minutes to spin up.
       </h3>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-2">
         {projects.map((item) => (
