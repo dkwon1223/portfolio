@@ -81,7 +81,7 @@ export const projects = [
       "/spring-boot.svg",
       "/postgresql.svg",
     ],
-    link: "https://stackpedia-ui.dev/",
+    link: "https://stackpedia.dev/",
   },
   {
     id: 2,
